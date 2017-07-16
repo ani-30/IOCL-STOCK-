@@ -10,14 +10,22 @@
     <style type="text/css">
         .style1
         {
-            height: 838px;
+            height: 754px;
             width: 1062px;
+        }
+        #form1 {
+            height: 873px;
+            width: 1106px;
+            margin-right: 0px;
         }
     </style>
 </head>
 <body class="style1">
     <form id="form1" runat="server">
-    <div>
+    <% Response.WriteFile("header.html")%> 
+    <div style="height: 776px">
+    
+        <asp:Button ID="Button1" runat="server" BackColor="#FFCC00" style="z-index: 1; left: 661px; top: 696px; position: absolute" Text="Deny" />
     
     </div>
     
@@ -47,9 +55,10 @@
         <p>
             &nbsp;</p>
         <p>
-            <asp:Button ID="Apprvbtn" runat="server" style="z-index: 1; left: 484px; top: 693px; position: absolute; height: 34px; width: 95px" Text="Approve" />
+            <asp:Button ID="Apprvbtn" runat="server" style="z-index: 1; left: 484px; top: 693px; position: absolute; height: 34px; width: 95px" Text="Approve" BackColor="#FFCC00" />
         </p>
     </form>
+    <% Response.WriteFile("footer.html")%> 
 </body>
 </html>
 

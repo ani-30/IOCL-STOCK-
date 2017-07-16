@@ -84,13 +84,13 @@ Public Class utility
         Return 1
     End Function
    
-    Function addtransaction(ByVal tid As String, ByVal uid As String, ByVal aid As String, ByVal item As String, ByVal quantity As Integer) As Integer
+    Function addtransaction(ByVal tid As String, ByVal uid As String, ByVal aid As String, ByVal item As String, ByVal quantity As Integer,ByVal status As String) As Integer
         cmd.Connection = conn
         cmd1.Connection = conn
         conn.Open()
         cmd1.CommandType = CommandType.Text
         cmd.CommandType = CommandType.Text
-        cmd.CommandText = "Insert into transaction values ('" & tid & "','" & uid & "','" & aid & " ','" & item & " '," & quantity & ")"
+        cmd.CommandText = "Insert into transaction values ('" & tid & "','" & uid & "','" & aid & " ','" & item & " ','" & quantity & "','" & status & "')"
         cmd1.CommandText = "Delete from Request where TID='" & tid & "' "
         Try
             cmd.ExecuteNonQuery()

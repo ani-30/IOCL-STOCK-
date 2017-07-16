@@ -14,7 +14,7 @@
 
 
     Protected Sub Addstkbtn_Click(sender As Object, e As EventArgs) Handles Addstkbtn.Click
-        Response.Redirect("Addstock.aspx")
+        Response.Redirect("Addstocknew.aspx")
 
     End Sub
 

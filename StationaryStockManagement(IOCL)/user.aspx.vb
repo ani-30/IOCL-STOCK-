@@ -1,4 +1,4 @@
-﻿Public Class WebForm3
+﻿Public Class user1
     Inherits System.Web.UI.Page
     Dim u As New utilityweb
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
@@ -28,5 +28,4 @@
 
 
     End Sub
-
 End Class

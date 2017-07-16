@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class WebForm8
+Partial Public Class status1
 
     '''<summary>
     '''form1 control.

@@ -19,4 +19,8 @@
             MsgBox("Record couldnt be added")
         End If
     End Sub
+
+    Protected Sub nsntext_TextChanged(sender As Object, e As EventArgs) Handles nsntext.TextChanged
+
+    End Sub
 End Class

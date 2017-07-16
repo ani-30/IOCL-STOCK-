@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class WebForm3
+Partial Public Class user1
 
     '''<summary>
     '''form1 control.
@@ -32,24 +32,6 @@ Partial Public Class WebForm3
     Protected WithEvents Label1 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Reqbtn control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Reqbtn As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
-    '''statusbtn control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents statusbtn As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
     '''welcomelbl control.
     '''</summary>
     '''<remarks>
@@ -66,4 +48,22 @@ Partial Public Class WebForm3
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents logoutbtn As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''statusbtn control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents statusbtn As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''Reqbtn control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Reqbtn As Global.System.Web.UI.WebControls.Button
 End Class

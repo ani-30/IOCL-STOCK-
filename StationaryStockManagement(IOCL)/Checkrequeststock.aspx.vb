@@ -31,12 +31,21 @@
         Dim quantity As Integer = Convert.ToInt32(qtext.Text)
         Dim item As String = stocktext.Text.ToString
         w.Remove(item, quantity)
-        u.addtransaction(trnstext.Text.ToString, idtext.Text.ToString, Session("ssnid"), item, quantity)
+        u.addtransaction(trnstext.Text.ToString, idtext.Text.ToString, Session("ssnid"), item, quantity, "Approved")
 
         Response.Redirect("admin.aspx")
     End Sub
 
     Protected Sub trnstext_TextChanged(sender As Object, e As EventArgs) Handles trnstext.TextChanged
 
+    End Sub
+
+    Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim quantity As Integer = Convert.ToInt32(qtext.Text)
+        Dim item As String = stocktext.Text.ToString
+
+        u.addtransaction(trnstext.Text.ToString, idtext.Text.ToString, Session("ssnid"), item, quantity, "Denied")
+
+        Response.Redirect("admin.aspx")
     End Sub
 End Class

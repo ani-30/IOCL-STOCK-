@@ -230,6 +230,14 @@ form1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+</member><member name="F:StationaryStockManagement_IOCL_.WebForm6.Button1">
+	<summary>
+Button1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:StationaryStockManagement_IOCL_.WebForm6.gv">
 	<summary>
 gv control.
@@ -382,7 +390,7 @@ Rmvbtn control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:StationaryStockManagement_IOCL_.WebForm8.form1">
+</member><member name="F:StationaryStockManagement_IOCL_.status1.form1">
 	<summary>
 form1 control.
 </summary>
@@ -390,7 +398,7 @@ form1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:StationaryStockManagement_IOCL_.WebForm8.Label4">
+</member><member name="F:StationaryStockManagement_IOCL_.status1.Label4">
 	<summary>
 Label4 control.
 </summary>
@@ -398,7 +406,7 @@ Label4 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:StationaryStockManagement_IOCL_.WebForm8.Label5">
+</member><member name="F:StationaryStockManagement_IOCL_.status1.Label5">
 	<summary>
 Label5 control.
 </summary>
@@ -406,7 +414,7 @@ Label5 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:StationaryStockManagement_IOCL_.WebForm8.TextBox3">
+</member><member name="F:StationaryStockManagement_IOCL_.status1.TextBox3">
 	<summary>
 TextBox3 control.
 </summary>
@@ -414,7 +422,7 @@ TextBox3 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:StationaryStockManagement_IOCL_.WebForm8.Button2">
+</member><member name="F:StationaryStockManagement_IOCL_.status1.Button2">
 	<summary>
 Button2 control.
 </summary>
@@ -430,7 +438,7 @@ providerDetails control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:StationaryStockManagement_IOCL_.WebForm3.form1">
+</member><member name="F:StationaryStockManagement_IOCL_.user1.form1">
 	<summary>
 form1 control.
 </summary>
@@ -438,7 +446,7 @@ form1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:StationaryStockManagement_IOCL_.WebForm3.Label1">
+</member><member name="F:StationaryStockManagement_IOCL_.user1.Label1">
 	<summary>
 Label1 control.
 </summary>
@@ -446,23 +454,7 @@ Label1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:StationaryStockManagement_IOCL_.WebForm3.Reqbtn">
-	<summary>
-Reqbtn control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:StationaryStockManagement_IOCL_.WebForm3.statusbtn">
-	<summary>
-statusbtn control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:StationaryStockManagement_IOCL_.WebForm3.welcomelbl">
+</member><member name="F:StationaryStockManagement_IOCL_.user1.welcomelbl">
 	<summary>
 welcomelbl control.
 </summary>
@@ -470,9 +462,25 @@ welcomelbl control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:StationaryStockManagement_IOCL_.WebForm3.logoutbtn">
+</member><member name="F:StationaryStockManagement_IOCL_.user1.logoutbtn">
 	<summary>
 logoutbtn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:StationaryStockManagement_IOCL_.user1.statusbtn">
+	<summary>
+statusbtn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:StationaryStockManagement_IOCL_.user1.Reqbtn">
+	<summary>
+Reqbtn control.
 </summary>
 	<remarks>
 Auto-generated field.
@@ -633,6 +641,38 @@ To modify move field declaration from designer file to code-behind file.
 </member><member name="F:StationaryStockManagement_IOCL_.SiteMaster.MainContent">
 	<summary>
 MainContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:StationaryStockManagement_IOCL_.WebForm9.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:StationaryStockManagement_IOCL_.WebForm9.gv">
+	<summary>
+gv control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:StationaryStockManagement_IOCL_.WebForm9.Button2">
+	<summary>
+Button2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:StationaryStockManagement_IOCL_.WebForm9.Button3">
+	<summary>
+Button3 control.
 </summary>
 	<remarks>
 Auto-generated field.

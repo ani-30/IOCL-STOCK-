@@ -20,6 +20,7 @@
     </style>
 </head>
 <body class="style1" style="height: 640px">
+    <% Response.WriteFile("header.html")%> 
     <form id="form1" runat="server">
     <div>
     
